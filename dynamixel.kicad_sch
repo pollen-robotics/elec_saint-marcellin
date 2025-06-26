@@ -2161,6 +2161,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VBUS"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text_box "Dynamixel"
 		(exclude_from_sim no)
@@ -2560,7 +2685,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 125.73) (xy 236.22 128.27)
+			(xy 236.22 123.19) (xy 236.22 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3460,7 +3585,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 118.11) (xy 236.22 120.65)
+			(xy 236.22 115.57) (xy 236.22 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5536,6 +5661,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field7" ""
+			(at 147.32 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4ac54927-8596-45b1-9453-5226fa7ca090")
 		)
@@ -5608,6 +5742,15 @@
 			)
 		)
 		(property "'FT Position Offset" ""
+			(at 109.22 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
 			(at 109.22 148.59 90)
 			(effects
 				(font
@@ -5719,6 +5862,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field7" ""
+			(at 83.82 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9f7fce31-8185-4d20-bbdf-5cbd497f039d")
 		)
@@ -5796,138 +5948,6 @@
 			(project "carte_Poulpe"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/16951dc3-c3bf-4589-96c9-b7b8f3c75698"
 					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 236.22 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b57f52d-f9b2-4c46-8cd6-7d86be98dd44")
-		(property "Reference" "#PWR047"
-			(at 236.22 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 236.22 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 236.22 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "958d5a84-7031-49a7-a178-bbc75f6ebb3f")
-		)
-		(instances
-			(project "elec_saint-marcelin"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/16951dc3-c3bf-4589-96c9-b7b8f3c75698"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 214.63 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c748e43-4b3b-41d3-b28d-40c74f33f653")
-		(property "Reference" "#PWR044"
-			(at 214.63 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 214.63 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 214.63 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "334f3549-47d2-45b5-aa69-922733f3295c")
-		)
-		(instances
-			(project "carte_Poulpe"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/16951dc3-c3bf-4589-96c9-b7b8f3c75698"
-					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -6076,6 +6096,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field7" ""
+			(at 165.1 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e1687bf9-827b-4427-b62a-5cbdbc9ec92d")
 		)
@@ -6162,6 +6191,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 167.64 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "245cf140-86ee-4c17-a4cf-536b905b4522")
+		(property "Reference" "#PWR033"
+			(at 167.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 167.64 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 167.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3551120c-2f90-48ae-a01d-dd6feda9bd73")
+		)
+		(instances
+			(project "elec_saint-marcelin"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/16951dc3-c3bf-4589-96c9-b7b8f3c75698"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 321.31 212.09 270)
 		(unit 1)
@@ -6235,6 +6330,15 @@
 			)
 		)
 		(property "'FT Position Offset" ""
+			(at 321.31 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
 			(at 321.31 212.09 90)
 			(effects
 				(font
@@ -6326,72 +6430,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 214.63 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f20c32a-2e87-42c8-a712-b30d909ef55a")
-		(property "Reference" "#PWR042"
-			(at 214.63 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 214.63 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 214.63 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8590cf59-fe65-454f-90de-14ef4cbe4b02")
-		)
-		(instances
-			(project "elec_saint-marcelin"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/16951dc3-c3bf-4589-96c9-b7b8f3c75698"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 80.01 148.59 180)
 		(unit 1)
@@ -6473,6 +6511,15 @@
 			)
 		)
 		(property "'FT Position Offset" ""
+			(at 80.01 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
 			(at 80.01 148.59 0)
 			(effects
 				(font
@@ -6586,6 +6633,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field7" ""
+			(at 337.82 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0863e0fc-1394-4f14-b090-058927e9ab6c")
 		)
@@ -6666,6 +6722,72 @@
 			(project "elec_saint-marcelin"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/16951dc3-c3bf-4589-96c9-b7b8f3c75698"
 					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 236.22 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42860865-b00b-4c36-9f6c-0384a577f86a")
+		(property "Reference" "#PWR047"
+			(at 236.22 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 236.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 236.22 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7047970b-72be-403c-8c6c-664c7df34f9f")
+		)
+		(instances
+			(project "elec_saint-marcelin"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/16951dc3-c3bf-4589-96c9-b7b8f3c75698"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -6820,6 +6942,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field7" ""
+			(at 306.07 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5e21d9ab-30b4-48d8-ae20-a5a0ee799a6f")
 		)
@@ -6927,6 +7058,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field7" ""
+			(at 218.44 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "93c91d2c-e5a3-4ffb-93ea-b6a8d805a11a")
 		)
@@ -6937,72 +7077,6 @@
 			(project "elec_saint-marcelin"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/16951dc3-c3bf-4589-96c9-b7b8f3c75698"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 167.64 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4db2f8cd-01cb-4b97-9125-c27e4cde5b73")
-		(property "Reference" "#PWR038"
-			(at 167.64 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 167.64 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 167.64 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "349f847a-2507-4f9a-99bb-d9665edaa266")
-		)
-		(instances
-			(project "elec_saint-marcelin"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/16951dc3-c3bf-4589-96c9-b7b8f3c75698"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -7108,6 +7182,15 @@
 			)
 		)
 		(property "'FT Position Offset" ""
+			(at 167.64 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
 			(at 167.64 100.33 0)
 			(effects
 				(font
@@ -7222,6 +7305,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field7" ""
+			(at 97.79 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3d7fad63-2fc8-4c8c-9aa7-54aecdcf1346")
 		)
@@ -7232,72 +7324,6 @@
 			(project "elec_saint-marcelin"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/16951dc3-c3bf-4589-96c9-b7b8f3c75698"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 269.24 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54ec440c-903c-41fb-9e35-b0706af49317")
-		(property "Reference" "#PWR048"
-			(at 269.24 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 269.24 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 269.24 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "52d98737-d1e9-4608-a64c-3c1ff91f372b")
-		)
-		(instances
-			(project "carte_Poulpe"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/16951dc3-c3bf-4589-96c9-b7b8f3c75698"
-					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -7639,6 +7665,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 214.63 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72e7dbec-f788-4e3f-a633-a826736edd50")
+		(property "Reference" "#PWR044"
+			(at 214.63 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 214.63 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 214.63 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e63592bb-fdb8-4dad-b077-fe5d6a4edcc0")
+		)
+		(instances
+			(project "elec_saint-marcelin"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/16951dc3-c3bf-4589-96c9-b7b8f3c75698"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 303.53 200.66 0)
 		(unit 1)
@@ -7922,6 +8014,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field7" ""
+			(at 97.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "6d2bad49-c8a6-43ac-8a0a-49e8edbbca86")
 		)
@@ -8091,6 +8192,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field7" ""
+			(at 269.24 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "10858a7c-3656-41a1-83cd-26f702c90b50")
 		)
@@ -8101,6 +8211,72 @@
 			(project "carte_Poulpe"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/16951dc3-c3bf-4589-96c9-b7b8f3c75698"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 73.66 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85793874-1179-4e8c-be78-380cbe8b1b52")
+		(property "Reference" "#PWR017"
+			(at 73.66 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 73.66 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 73.66 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76d97ae1-3192-4e0e-b662-def947f6aa94")
+		)
+		(instances
+			(project "elec_saint-marcelin"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/16951dc3-c3bf-4589-96c9-b7b8f3c75698"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -8213,6 +8389,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field7" ""
+			(at 306.07 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7073d82d-1687-4006-bd48-d364f18a74cb")
 		)
@@ -8290,72 +8475,6 @@
 			(project "carte_Poulpe"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/16951dc3-c3bf-4589-96c9-b7b8f3c75698"
 					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 80.01 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90ea9c08-9926-4c40-a1c5-74a41078f347")
-		(property "Reference" "#PWR033"
-			(at 80.01 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 80.01 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 80.01 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "35f31a43-c2a3-41e9-b9bc-4631063d5d33")
-		)
-		(instances
-			(project "elec_saint-marcelin"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/16951dc3-c3bf-4589-96c9-b7b8f3c75698"
-					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -8469,6 +8588,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field7" ""
+			(at 154.94 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "81d98151-6c93-4f5a-8370-7723f9b305ba")
 		)
@@ -8574,6 +8702,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field7" ""
+			(at 210.82 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0d456b27-fcc4-483d-9cc1-ce072140f6fc")
 		)
@@ -8654,6 +8791,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field7" ""
+			(at 109.22 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "edd4f714-407c-4e2c-88fe-fb9fcbf68ac3")
 		)
@@ -8661,6 +8807,72 @@
 			(project ""
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/16951dc3-c3bf-4589-96c9-b7b8f3c75698"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 269.24 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac68d3c0-702a-4384-adcf-d8c38ef78dd0")
+		(property "Reference" "#PWR038"
+			(at 269.24 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 269.24 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 269.24 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f757d4fd-6c7b-484c-82a7-ac81751bd68a")
+		)
+		(instances
+			(project "elec_saint-marcelin"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/16951dc3-c3bf-4589-96c9-b7b8f3c75698"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -8757,6 +8969,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field7" ""
+			(at 337.82 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "174cd7fc-c7e7-4a7b-9d6a-85f5edb6de38")
 		)
@@ -8770,72 +8991,6 @@
 			(project "elec_saint-marcelin"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/16951dc3-c3bf-4589-96c9-b7b8f3c75698"
 					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 73.66 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0634b13-8413-44a7-9c62-78667a870b7a")
-		(property "Reference" "#PWR031"
-			(at 73.66 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 73.66 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 73.66 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ed46c4bd-3f95-4597-a5c7-fb9636559f6b")
-		)
-		(instances
-			(project "elec_saint-marcelin"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/16951dc3-c3bf-4589-96c9-b7b8f3c75698"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -8924,6 +9079,15 @@
 			)
 		)
 		(property "'FT Position Offset" ""
+			(at 337.82 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
 			(at 337.82 151.13 0)
 			(effects
 				(font
@@ -9041,6 +9205,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field7" ""
+			(at 337.82 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6cd7e72c-0db3-418e-8840-4f8993e8e39e")
 		)
@@ -9054,72 +9227,6 @@
 			(project "elec_saint-marcelin"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/16951dc3-c3bf-4589-96c9-b7b8f3c75698"
 					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 210.82 209.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7e3a08e-6091-4e3e-95f6-49c91d204c00")
-		(property "Reference" "#PWR040"
-			(at 210.82 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 210.82 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 210.82 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "71553d14-71ba-46ac-8259-6f4673916f20")
-		)
-		(instances
-			(project "carte_Poulpe"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/16951dc3-c3bf-4589-96c9-b7b8f3c75698"
-					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -9217,6 +9324,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field7" ""
+			(at 78.74 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a6984e29-a0b2-456e-906b-07ea7719caa4")
 		)
@@ -9234,7 +9350,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 236.22 123.19 0)
+		(at 236.22 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9242,7 +9358,7 @@
 		(dnp no)
 		(uuid "bedcd353-eadf-437e-8058-bbcae6282f6e")
 		(property "Reference" "R18"
-			(at 231.14 121.92 0)
+			(at 231.14 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9251,7 +9367,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 231.14 124.46 0)
+			(at 231.14 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9260,7 +9376,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 236.22 123.19 0)
+			(at 236.22 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9269,7 +9385,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 123.19 0)
+			(at 236.22 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9278,7 +9394,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 236.22 123.19 0)
+			(at 236.22 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9287,7 +9403,7 @@
 			)
 		)
 		(property "Man." "Yageo"
-			(at 236.22 123.19 0)
+			(at 236.22 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9296,7 +9412,7 @@
 			)
 		)
 		(property "Man. Ref." "RC0603FR-0710KL"
-			(at 236.22 123.19 0)
+			(at 236.22 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9305,7 +9421,7 @@
 			)
 		)
 		(property "Length" "1.6"
-			(at 236.22 123.19 0)
+			(at 236.22 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9314,7 +9430,7 @@
 			)
 		)
 		(property "Width" "0.9"
-			(at 236.22 123.19 0)
+			(at 236.22 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9323,7 +9439,7 @@
 			)
 		)
 		(property "LCSC" "C25744"
-			(at 236.22 123.19 0)
+			(at 236.22 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9332,7 +9448,16 @@
 			)
 		)
 		(property "'FT Position Offset" ""
-			(at 236.22 123.19 0)
+			(at 236.22 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 236.22 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9350,6 +9475,72 @@
 			(project "carte_Poulpe"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/16951dc3-c3bf-4589-96c9-b7b8f3c75698"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 80.01 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1cb9ab8-b595-4bc2-8737-a85c3c144d90")
+		(property "Reference" "#PWR031"
+			(at 80.01 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 80.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 80.01 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ef245f2-760e-4011-b301-393eeba02acd")
+		)
+		(instances
+			(project "elec_saint-marcelin"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/16951dc3-c3bf-4589-96c9-b7b8f3c75698"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -9504,6 +9695,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field7" ""
+			(at 311.15 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0088f358-fc68-4744-bc8f-a7e9589a263f")
 		)
@@ -9514,6 +9714,138 @@
 			(project ""
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/16951dc3-c3bf-4589-96c9-b7b8f3c75698"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 210.82 209.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc2ec530-5372-4c88-9311-1ae8e0b7fdff")
+		(property "Reference" "#PWR040"
+			(at 210.82 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 210.82 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 210.82 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0fb6a4f-199f-4fe6-8a7c-8c1d223e4a7f")
+		)
+		(instances
+			(project "elec_saint-marcelin"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/16951dc3-c3bf-4589-96c9-b7b8f3c75698"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 214.63 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d026fd5b-f84c-499c-a052-a2b8cfe0bd6b")
+		(property "Reference" "#PWR042"
+			(at 214.63 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 214.63 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 214.63 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0463ab8-c405-43d2-8016-d36c25e4b6d3")
+		)
+		(instances
+			(project "elec_saint-marcelin"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/16951dc3-c3bf-4589-96c9-b7b8f3c75698"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -9704,6 +10036,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field7" ""
+			(at 292.1 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "374bae1f-ad51-4075-9e2b-3012c826354a")
 		)
@@ -9817,6 +10158,15 @@
 			)
 		)
 		(property "'FT Position Offset" ""
+			(at 219.71 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
 			(at 219.71 181.61 0)
 			(effects
 				(font
@@ -10098,6 +10448,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field7" ""
+			(at 219.71 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fec8b704-6b1e-487e-9f5d-063871f6b775")
 		)
@@ -10221,6 +10580,15 @@
 			)
 		)
 		(property "'FT Position Offset" ""
+			(at 281.94 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
 			(at 281.94 181.61 90)
 			(effects
 				(font
@@ -10385,6 +10753,15 @@
 			)
 		)
 		(property "'FT Position Offset" ""
+			(at 316.23 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
 			(at 316.23 212.09 90)
 			(effects
 				(font
