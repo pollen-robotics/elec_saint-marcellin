@@ -1491,7 +1491,7 @@
 		)
 		(uuid "8871bca3-55b7-4e24-a38f-cc9e184422ab")
 	)
-	(text "\"Saint-Marcelin\" gathers a USB-2 hub and a USB-Dynamixel converter."
+	(text "\"Saint-Marcellin\" gathers a USB-2 hub and a USB-Dynamixel converter."
 		(exclude_from_sim no)
 		(at 24.13 29.21 0)
 		(effects
@@ -1535,7 +1535,7 @@
 		)
 		(uuid "f5d00bcc-eabe-48dd-9739-479bfa89e1ef")
 	)
-	(text "25/06/2025"
+	(text "26/06/2025"
 		(exclude_from_sim no)
 		(at 44.45 44.45 0)
 		(effects
