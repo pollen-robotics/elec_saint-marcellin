@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "elec Saint-Marcellin")
-		(date "2025-06-26")
-		(rev "A1")
+		(date "2025-07-03")
+		(rev "B1")
 		(company "Pollen Robotics / Hugging Face")
 	)
 	(lib_symbols

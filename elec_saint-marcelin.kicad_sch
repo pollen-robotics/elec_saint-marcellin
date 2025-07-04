@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "elec Saint-Marcellin")
-		(date "2025-06-26")
-		(rev "A1")
+		(date "2025-07-03")
+		(rev "B1")
 		(company "Pollen Robotics / Hugging Face")
 	)
 	(lib_symbols
@@ -1436,6 +1436,17 @@
 		)
 		(uuid "2520f966-d268-4d70-9674-db30a65b367c")
 	)
+	(text "[fixed] Dynamixel-X connectors were 180 deg"
+		(exclude_from_sim no)
+		(at 98.298 50.038 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "326a365c-0441-404a-838b-69a002dc0938")
+	)
 	(text "Fiducials"
 		(exclude_from_sim no)
 		(at 209.55 112.395 0)
@@ -1458,6 +1469,17 @@
 		)
 		(uuid "396a4260-a2a2-4915-8e46-e45b012de968")
 	)
+	(text "xx/yy/2025"
+		(exclude_from_sim no)
+		(at 44.45 50.8 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b822bbd-92aa-4a4c-8c72-a474aa0208b5")
+	)
 	(text "A1"
 		(exclude_from_sim no)
 		(at 24.13 44.45 0)
@@ -1479,6 +1501,17 @@
 			(justify left bottom)
 		)
 		(uuid "62d7d4ff-c831-4135-bec0-50323fd58d17")
+	)
+	(text "B1"
+		(exclude_from_sim no)
+		(at 24.13 50.8 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "7db50707-2f32-4b44-b647-161ef1d2865d")
 	)
 	(text "Initial drawing"
 		(exclude_from_sim no)
@@ -1512,6 +1545,39 @@
 			(justify left bottom)
 		)
 		(uuid "b088e14a-2a87-440c-a033-f65020b82725")
+	)
+	(text "ToDo:\n - Change 0R R21 for a 3A Schottky Diode (B340A-13-F)"
+		(exclude_from_sim no)
+		(at 50.292 61.214 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce32b586-a0a9-4e35-9587-abb8dbf417e5")
+	)
+	(text "EB"
+		(exclude_from_sim no)
+		(at 68.58 50.8 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "df6c9d5a-13a4-4d08-8e4c-9dbb2bbc8a57")
+	)
+	(text "SN"
+		(exclude_from_sim no)
+		(at 83.82 50.8 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "eefcb975-a0ba-4be4-97e2-a3cda239f6bd")
 	)
 	(text "SN"
 		(exclude_from_sim no)
