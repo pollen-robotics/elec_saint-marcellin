@@ -11471,6 +11471,145 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 87.63 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f59d7cff-3637-4dfe-9a17-10f9bcb9e51a")
+		(property "Reference" "J2"
+			(at 97.028 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB-C Rec. Vert."
+			(at 84.328 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library_Pollen:USB-C_16p_vert_Shou-Han_TYPE-C 16P LTH6.8 - C5187468"
+			(at 91.44 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 91.44 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 87.63 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5187468"
+			(at 87.63 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "'FT Position Offset" ""
+			(at 87.63 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 87.63 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B8"
+			(uuid "1c7c8975-7ab6-4935-8da6-f9f8b5eb2c47")
+		)
+		(pin "A9"
+			(uuid "536d49ca-be6b-4f20-a198-b5cdabe19ba5")
+		)
+		(pin "A6"
+			(uuid "15b08f83-f0df-4abf-9b1b-dc797b88cd63")
+		)
+		(pin "A7"
+			(uuid "028d5411-7cae-48c9-8b59-da7ea858c988")
+		)
+		(pin "A4"
+			(uuid "efc404ea-e923-47d8-8f31-47b03c016a59")
+		)
+		(pin "B12"
+			(uuid "87b79439-4395-42c3-8e07-f15faab052b7")
+		)
+		(pin "A12"
+			(uuid "8a293ed4-dbb3-4c90-82f0-16ca7efbd5fa")
+		)
+		(pin "A1"
+			(uuid "57567631-33e0-45a4-ac9a-f966c793654a")
+		)
+		(pin "A5"
+			(uuid "4990ccae-f2d2-40a7-9f26-1f9f5b02fda6")
+		)
+		(pin "A8"
+			(uuid "664a2eaa-e475-4a66-990c-ca8c55a2f8fc")
+		)
+		(pin "B5"
+			(uuid "6062ece0-bc53-449a-832d-680aea73982f")
+		)
+		(pin "B4"
+			(uuid "3fa7d8d9-04f0-4241-ab76-82184fea0c4d")
+		)
+		(pin "B9"
+			(uuid "b568dc23-b0e6-477e-9816-0e6f4af7874a")
+		)
+		(pin "S1"
+			(uuid "8e63c8e0-edca-40a5-b715-95a16f88e5ea")
+		)
+		(pin "B1"
+			(uuid "d75b40c9-3802-4bbb-a5ba-a7a60457145a")
+		)
+		(pin "B6"
+			(uuid "056a739d-adaa-4635-9d2e-d01c64bc97da")
+		)
+		(pin "B7"
+			(uuid "e5bf606a-eece-441d-9bfa-6c3e7119b6e3")
+		)
+		(instances
+			(project "elec_saint-marcelin"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/cc70da6a-bdb1-40c3-8d8e-ef5b03ac53e9"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 359.41 81.28 0)
 		(mirror y)
@@ -11666,146 +11805,6 @@
 			(project "elec_saint-marcelin"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/cc70da6a-bdb1-40c3-8d8e-ef5b03ac53e9"
 					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 87.63 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f991c8f7-7e9d-4ddc-96e4-c46ce7764847")
-		(property "Reference" "J2"
-			(at 87.63 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB-C Rec. Hor."
-			(at 87.63 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library_Pollen:USB-C-SMD_TYPE-C-6PIN-2MD-073 Shou Han - C2765186"
-			(at 91.44 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 91.44 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 87.63 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2765186"
-			(at 87.63 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FT Position Offset" "0,0.1"
-			(at 87.63 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" ""
-			(at 87.63 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "B8"
-			(uuid "bdb90eaa-e053-4c32-acae-d292d3ed9b49")
-		)
-		(pin "A9"
-			(uuid "28c3fd58-4c24-4829-ab17-338f11e38ee1")
-		)
-		(pin "A6"
-			(uuid "b2652782-2fc1-4a25-85c6-70b30b5a6442")
-		)
-		(pin "A7"
-			(uuid "057657da-cd7a-455c-af9a-521536c60850")
-		)
-		(pin "A4"
-			(uuid "4997aea3-ce94-4b5b-8c52-a1e4388ca984")
-		)
-		(pin "B12"
-			(uuid "e9c32cc8-9172-4e0f-9a7c-7f67106d2cca")
-		)
-		(pin "A12"
-			(uuid "539c4cf3-f3b9-44f2-9578-b19a1198d8eb")
-		)
-		(pin "A1"
-			(uuid "fef6be9b-2de0-4f2f-824b-3cc7f1433519")
-		)
-		(pin "A5"
-			(uuid "f6d63a50-fb56-47c4-82af-f0bf4ad970a0")
-		)
-		(pin "A8"
-			(uuid "cab4d4b6-a52f-4499-9c3c-7a3160a51961")
-		)
-		(pin "B5"
-			(uuid "e910d1d9-2a0d-4489-8c47-54226766037d")
-		)
-		(pin "B4"
-			(uuid "1214b309-2c9c-415e-bfa0-d11ac10d17a8")
-		)
-		(pin "B9"
-			(uuid "b8e3b324-e435-479a-8f16-0b233cafddaa")
-		)
-		(pin "S1"
-			(uuid "a2a65d1c-e444-4323-9255-ff076f3efa6a")
-		)
-		(pin "B1"
-			(uuid "45c873b5-3522-436a-9ecf-56cd810f67bf")
-		)
-		(pin "B6"
-			(uuid "1c7724b3-3c9a-47c1-93d4-33de4140542a")
-		)
-		(pin "B7"
-			(uuid "5c34ce28-0fab-4c2a-904b-750329eb4ff2")
-		)
-		(instances
-			(project "elec_saint-marcelin"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/cc70da6a-bdb1-40c3-8d8e-ef5b03ac53e9"
-					(reference "J2")
 					(unit 1)
 				)
 			)
