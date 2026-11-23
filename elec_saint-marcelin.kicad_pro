@@ -550,7 +550,7 @@
       "plot": "fab/",
       "pos_files": "fab/",
       "specctra_dsn": "",
-      "step": "elec_saint-marcelin.step",
+      "step": "production/elec_saint-marcelin.step",
       "svg": "",
       "vrml": ""
     },

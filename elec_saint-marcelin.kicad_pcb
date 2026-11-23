@@ -12049,7 +12049,7 @@
 			)
 		)
 		(property "KiLib_Generator" "package/no_lead"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "7bbe06d1-3cff-44af-b322-e3acf7b959b3")
@@ -12641,7 +12641,7 @@
 			(uuid "1e1e03f9-a4c6-46f4-99ff-c4607907b3cd")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/WCH_QFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm.step"
+		(model "/usr/share/kicad/3dmodels/Package_DFN_QFN.3dshapes/QFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
