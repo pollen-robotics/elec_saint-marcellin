@@ -1,6 +1,5 @@
 # Pollen-specific
 fab/
-production/
 
 # Temporary files
 *.000
